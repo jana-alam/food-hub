@@ -21,6 +21,20 @@ h3 {
   font-size: 26px;
   font-weight: 700;
 }
+.flex-menu {
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px;
+}
 .flex-width {
   display: flex;
   justify-content: space-around;
@@ -31,12 +45,19 @@ h3 {
 .grey-color {
   color: #727272;
 }
+.link-menu {
+  padding: 20px 30px;
+  color: orange;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+}
 .link-button {
   background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
   padding: 20px 30px;
   border-radius: 100px;
   color: white;
-  font-weight: 700;
   text-decoration: none;
   display: inline-block;
   margin-top: 50px;
@@ -52,7 +73,6 @@ h3 {
 }
 
 #top-area {
-  padding-top: 50px;
   margin-bottom: 120px;
 }
 
@@ -71,6 +91,9 @@ h3 {
 #about-description {
   margin-right: 5%;
   margin-bottom: 40px;
+}
+#about-area-image {
+  max-width: 85%;
 }
 
 #menu-area {
