@@ -1,12 +1,17 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  color: #18191f;
 }
 h1 {
-  font-size: 60px;
+  font-size: 58px;
+  color: #575757;
+}
+h2 {
+  font-size: 40px;
 }
 
-section {
+.flex-width {
   display: flex;
 }
 
@@ -21,9 +26,21 @@ img {
 .orange-color {
   color: #fba24f;
 }
+.grey-color {
+  color: #727272;
+}
 
 .link-button {
   background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
   padding: 20px 30px;
   border-radius: 100px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#footer-area {
+  padding: 0 20px;
+  background-color: black;
+  color: white;
 }
