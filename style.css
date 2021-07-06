@@ -80,13 +80,13 @@ h3 {
 }
 .menu {
   margin-top: 40px;
-  justify-content: space-around;
 }
 .menu-item {
   text-align: left;
   box-shadow: 0 0 10px rgb(54, 54, 54);
   border-radius: 20px;
 }
+
 #footer-area {
   padding: 0 20px;
   background-color: black;
