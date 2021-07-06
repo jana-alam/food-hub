@@ -2,6 +2,14 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: #18191f;
+  padding: 0 40px;
+}
+
+img {
+  max-width: 100%;
+}
+p {
+  font-size: 18 px;
 }
 h1 {
   font-size: 58px;
@@ -17,12 +25,20 @@ h2 {
 
 .half-width {
   width: 50%;
+  margin-left: 20px;
+  padding: 0 10px;
 }
 
-img {
-  width: 80%;
+#top-area-image {
+  width: 85%;
+  display: block;
+  margin: auto;
 }
-
+#about-area-image {
+  width: 65%;
+  display: block;
+  margin: auto;
+}
 .orange-color {
   color: #fba24f;
 }
@@ -37,6 +53,22 @@ img {
   color: white;
   font-weight: 700;
   text-decoration: none;
+  display: inline-block;
+  margin-top: 50px;
+}
+.one-third-width {
+  width: 33.33%;
+  padding: 0 10px;
+}
+.menu-item {
+  box-shadow: 0 0 15px 10px black;
+}
+.menu-item img {
+  width: 100%;
+}
+#top-area {
+  padding-top: 50px;
+  margin-bottom: 120px;
 }
 
 #footer-area {
