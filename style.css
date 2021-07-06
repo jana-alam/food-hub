@@ -25,20 +25,12 @@ h3 {
   display: flex;
   justify-content: space-around;
 }
-
-#top-area-image {
-  width: 85%;
-  display: block;
-  margin: auto;
-}
-
 .orange-color {
   color: #fba24f;
 }
 .grey-color {
   color: #727272;
 }
-
 .link-button {
   background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
   padding: 20px 30px;
@@ -50,10 +42,24 @@ h3 {
   margin-top: 50px;
   box-shadow: 0 0 20px rgba(255, 99, 71, 0.787);
 }
+.half-width {
+  width: 50%;
+  padding: 0 5%;
+}
+.one-third-width {
+  width: 25%;
+  padding: 20px;
+}
 
 #top-area {
   padding-top: 50px;
   margin-bottom: 120px;
+}
+
+#top-area-image {
+  width: 85%;
+  display: block;
+  margin: auto;
 }
 
 #about-area {
@@ -66,20 +72,15 @@ h3 {
   margin-right: 5%;
   margin-bottom: 40px;
 }
-.half-width {
-  width: 50%;
-  padding: 0 5%;
-}
+
 #menu-area {
   padding: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
-.one-third-width {
-  width: 25%;
-  padding: 20px;
-}
+
 .menu {
-  margin-top: 40px;
+  margin: 50px 0 30px;
 }
 .menu-item {
   text-align: left;
@@ -88,9 +89,12 @@ h3 {
 }
 
 #footer-area {
-  padding: 0 20px;
+  padding: 20px 0;
   background-color: black;
   color: white;
-  overflow: hidden;
   text-align: center;
+}
+
+#footer-area p {
+  margin: 0;
 }
