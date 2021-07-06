@@ -1,7 +1,29 @@
 body {
-  background-color: grey;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 60px;
+}
+
+section {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
 }
 
 img {
-  max-width: 100%;
+  width: 80%;
+}
+
+.orange-color {
+  color: #fba24f;
+}
+
+.link-button {
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  padding: 20px 30px;
+  border-radius: 100px;
 }
